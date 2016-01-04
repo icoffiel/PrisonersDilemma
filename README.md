@@ -11,7 +11,9 @@ gradle build
 
 ## Running
 To run use the following command:
-```java -jar build/libs/PrisonersDilemma-1.0.jar <partnerName> <partnerDiscipline> [partnerPreviousResponse] [playerPreviousResponse]```
+```
+java -jar build/libs/PrisonersDilemma-1.0.jar <partnerName> <partnerDiscipline> [partnerPreviousResponse] [playerPreviousResponse]
+```
 
 * Argument 1 <partnerName>: This is the name of the opponent or the player who was your partner in crime.
 * Argument 2 <partnerDiscipline>: This is the discipline of your opponent. It will be one of the following: [client-side, jvm, mobile, .net, php, ruby, other] ("other" refers to any contestant outside of development.)
