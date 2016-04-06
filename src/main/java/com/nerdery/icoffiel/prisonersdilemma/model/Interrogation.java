@@ -11,8 +11,8 @@ public class Interrogation {
 	 * 
 	 * @param partnerName The name of the opponent or the player who was your partner in crime.
 	 * @param partnerDiscipline The discipline of your opponent. It will be one of the following: [client-side, jvm, mobile, .net, php, ruby, other] 
-	 * @param partnerPreviousResponse The response of your opponent from your previous match with that opponent. Is one of “confess” or “silent”. This will not be provided in your first match with this opponent.
-	 * @param playerPreviousResponse Your response from the previous match with this opponent. Is one of “confess” or “silent”. This will not be provided in your first match with this opponent.
+	 * @param partnerPreviousResponse The response of your opponent from your previous match with that opponent. Is one of 'confess' or 'silent'. This will not be provided in your first match with this opponent.
+	 * @param playerPreviousResponse Your response from the previous match with this opponent. Is one of 'confess' or 'silent'. This will not be provided in your first match with this opponent.
 	 */
 	public Interrogation(String partnerName, String partnerDiscipline, Optional<String> partnerPreviousResponse, Optional<String> playerPreviousResponse) {
 		if(partnerPreviousResponse.isPresent()) {
